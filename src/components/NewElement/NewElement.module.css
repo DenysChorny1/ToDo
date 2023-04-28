@@ -1,0 +1,19 @@
+.New{
+    display: flex;
+    justify-content: space-around;
+    height: 35px;
+}
+.input{
+    width: 80%;
+    padding: 5px 10px;
+    border-bottom-left-radius: 20px;
+    border: 2px solid rgb(39, 104, 157);
+}
+.button{
+    width: 20%;
+    background: rgb(11,9,121);
+    background: linear-gradient(90deg, rgba(11,9,121,0.19371498599439774) 5%, rgba(0,193,254,0.7371323529411764) 58%);
+    color: white;
+    border: none;
+    font-weight: bold;
+}

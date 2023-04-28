@@ -1,0 +1,22 @@
+.Buttons{
+  display: flex;
+  justify-content: space-between;
+}
+.Buttons button.active{
+  border: 2px solid rgb(39, 104, 157);
+  background: rgb(11,9,121);
+  background: linear-gradient(90deg, rgba(11,9,121,0) 5%, rgba(0,193,254,0.4150035014005602) 58%);
+}
+.Buttons button{
+  width: 33%;
+  padding: 10px;
+  background: rgb(255,255,255);
+  border: 2px solid transparent;
+  font-weight: bold;
+}
+.Buttons button:first-child{
+  border-top-left-radius: 20px;
+}
+.Buttons button:last-child{
+  border-top-right-radius: 20px;
+}
